@@ -1,1 +1,319 @@
-['¿', 'Qué', 'mares', 'bañan', 'Andalucía', '?']['¿', 'Qué', 'río', 'pasa', 'por', 'el', 'País_vasco', 'con', 'más', 'caudal', '?']['¿', 'Qué', 'río', 'pasa', 'por', 'la', 'comunidad', 'con', 'más', 'habitantes', '?']['¿', 'El', 'mar', 'Cantábrico', 'baña', 'las', 'costas', 'de', 'Galicia', '?']['¿', 'Qué', 'mares', 'bañan', 'la', 'comunidad', 'de', 'Andalucía', '?']
+Frase: ¿ Qué mares bañan Andalucía ?
+
+ Árbol sintáctico 1: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV (VMI bañan) (SN (NOMINAL_Mas_S (NP Andalucía))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 2: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV (VMI bañan) (SN (NOMINAL_Mas_P (NP Andalucía))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 3: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV (VMI bañan) (SN (NOMINAL_Fem_S (NP Andalucía))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 4: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV (VMI bañan) (SN (NOMINAL_Fem_P (NP Andalucía))))
+    (Fit ?)))
+
+
+
+Frase: ¿ Qué río pasa por el País_vasco con más caudal ?
+
+ Árbol sintáctico 1: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_S (NC_Mas_S río)))
+    (SV
+      (VMI pasa)
+      (SP
+        (SPS por)
+        (SN
+          (DA_Mas_S el)
+          (NOMINAL_Mas_S (NP País_vasco))
+          (SP (SPS con) (SN (DC más) (NC_Mas_S caudal))))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 2: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_S (NC_Mas_S río)))
+    (SV
+      (VMI pasa)
+      (SP
+        (SPS por)
+        (SN (DA_Mas_S el) (NOMINAL_Mas_S (NP País_vasco))))
+      (SP (SPS con) (SN (DC más) (NC_Mas_S caudal))))
+    (Fit ?)))
+
+
+
+Frase: ¿ Qué río pasa por la comunidad con más habitantes ?
+
+ Árbol sintáctico 1: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_S (NC_Mas_S río)))
+    (SV
+      (VMI pasa)
+      (SP
+        (SPS por)
+        (SN
+          (DA_Fem_S la)
+          (NOMINAL_Fem_S (NC_Fem_S comunidad))
+          (SP (SPS con) (SN (DC más) (NC_Mas_P habitantes))))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 2: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_S (NC_Mas_S río)))
+    (SV
+      (VMI pasa)
+      (SP
+        (SPS por)
+        (SN (DA_Fem_S la) (NOMINAL_Fem_S (NC_Fem_S comunidad))))
+      (SP (SPS con) (SN (DC más) (NC_Mas_P habitantes))))
+    (Fit ?)))
+
+
+
+Frase: ¿ El mar Cantábrico baña las costas de Galicia ?
+
+ Árbol sintáctico 1: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN (DA_Mas_S El) (NOMINAL_Mas_S (NC_Mas_S mar) (NP Cantábrico)))
+    (SV
+      (VMI baña)
+      (SN
+        (DA_Fem_P las)
+        (NOMINAL_Fem_P (NC_Fem_P costas))
+        (SP (SPS de) (SN (NOMINAL_Mas_S (NP Galicia))))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 2: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN (DA_Mas_S El) (NOMINAL_Mas_S (NC_Mas_S mar) (NP Cantábrico)))
+    (SV
+      (VMI baña)
+      (SN
+        (DA_Fem_P las)
+        (NOMINAL_Fem_P (NC_Fem_P costas))
+        (SP (SPS de) (SN (NOMINAL_Mas_P (NP Galicia))))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 3: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN (DA_Mas_S El) (NOMINAL_Mas_S (NC_Mas_S mar) (NP Cantábrico)))
+    (SV
+      (VMI baña)
+      (SN
+        (DA_Fem_P las)
+        (NOMINAL_Fem_P (NC_Fem_P costas))
+        (SP (SPS de) (SN (NOMINAL_Fem_S (NP Galicia))))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 4: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN (DA_Mas_S El) (NOMINAL_Mas_S (NC_Mas_S mar) (NP Cantábrico)))
+    (SV
+      (VMI baña)
+      (SN
+        (DA_Fem_P las)
+        (NOMINAL_Fem_P (NC_Fem_P costas))
+        (SP (SPS de) (SN (NOMINAL_Fem_P (NP Galicia))))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 5: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN (DA_Mas_S El) (NOMINAL_Mas_S (NC_Mas_S mar) (NP Cantábrico)))
+    (SV
+      (VMI baña)
+      (SN (DA_Fem_P las) (NOMINAL_Fem_P (NC_Fem_P costas)))
+      (SP (SPS de) (SN (NOMINAL_Mas_S (NP Galicia)))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 6: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN (DA_Mas_S El) (NOMINAL_Mas_S (NC_Mas_S mar) (NP Cantábrico)))
+    (SV
+      (VMI baña)
+      (SN (DA_Fem_P las) (NOMINAL_Fem_P (NC_Fem_P costas)))
+      (SP (SPS de) (SN (NOMINAL_Mas_P (NP Galicia)))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 7: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN (DA_Mas_S El) (NOMINAL_Mas_S (NC_Mas_S mar) (NP Cantábrico)))
+    (SV
+      (VMI baña)
+      (SN (DA_Fem_P las) (NOMINAL_Fem_P (NC_Fem_P costas)))
+      (SP (SPS de) (SN (NOMINAL_Fem_S (NP Galicia)))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 8: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN (DA_Mas_S El) (NOMINAL_Mas_S (NC_Mas_S mar) (NP Cantábrico)))
+    (SV
+      (VMI baña)
+      (SN (DA_Fem_P las) (NOMINAL_Fem_P (NC_Fem_P costas)))
+      (SP (SPS de) (SN (NOMINAL_Fem_P (NP Galicia)))))
+    (Fit ?)))
+
+
+
+Frase: ¿ Qué mares bañan la comunidad de Andalucía ?
+
+ Árbol sintáctico 1: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV
+      (VMI bañan)
+      (SN
+        (DA_Fem_S la)
+        (NOMINAL_Fem_S (NC_Fem_S comunidad))
+        (SP (SPS de) (SN (NOMINAL_Mas_S (NP Andalucía))))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 2: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV
+      (VMI bañan)
+      (SN
+        (DA_Fem_S la)
+        (NOMINAL_Fem_S (NC_Fem_S comunidad))
+        (SP (SPS de) (SN (NOMINAL_Mas_P (NP Andalucía))))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 3: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV
+      (VMI bañan)
+      (SN
+        (DA_Fem_S la)
+        (NOMINAL_Fem_S (NC_Fem_S comunidad))
+        (SP (SPS de) (SN (NOMINAL_Fem_S (NP Andalucía))))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 4: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV
+      (VMI bañan)
+      (SN
+        (DA_Fem_S la)
+        (NOMINAL_Fem_S (NC_Fem_S comunidad))
+        (SP (SPS de) (SN (NOMINAL_Fem_P (NP Andalucía))))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 5: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV
+      (VMI bañan)
+      (SN (DA_Fem_S la) (NOMINAL_Fem_S (NC_Fem_S comunidad)))
+      (SP (SPS de) (SN (NOMINAL_Mas_S (NP Andalucía)))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 6: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV
+      (VMI bañan)
+      (SN (DA_Fem_S la) (NOMINAL_Fem_S (NC_Fem_S comunidad)))
+      (SP (SPS de) (SN (NOMINAL_Mas_P (NP Andalucía)))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 7: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV
+      (VMI bañan)
+      (SN (DA_Fem_S la) (NOMINAL_Fem_S (NC_Fem_S comunidad)))
+      (SP (SPS de) (SN (NOMINAL_Fem_S (NP Andalucía)))))
+    (Fit ?)))
+
+
+ Árbol sintáctico 8: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Qué) (NOMINAL_Mas_P (NC_Mas_P mares)))
+    (SV
+      (VMI bañan)
+      (SN (DA_Fem_S la) (NOMINAL_Fem_S (NC_Fem_S comunidad)))
+      (SP (SPS de) (SN (NOMINAL_Fem_P (NP Andalucía)))))
+    (Fit ?)))
+
+
+

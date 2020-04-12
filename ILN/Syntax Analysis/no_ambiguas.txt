@@ -1,1 +1,30 @@
-['¿', 'El', 'río', 'Ebro', 'pasa', 'por', 'el', 'País_vasco', '?']['¿', 'Cuántos', 'ríos', 'desembocan', 'en', 'el', 'mar', 'Mediterráneo', '?']
+Frase: ¿ El río Ebro pasa por el País_vasco ?
+
+ Árbol sintáctico: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN (DA_Mas_S El) (NOMINAL_Mas_S (NC_Mas_S río) (NP Ebro)))
+    (SV
+      (VMI pasa)
+      (SP
+        (SPS por)
+        (SN (DA_Mas_S el) (NOMINAL_Mas_S (NP País_vasco)))))
+    (Fit ?)))
+
+Frase: ¿ Cuántos ríos desembocan en el mar Mediterráneo ?
+
+ Árbol sintáctico: 
+(S
+  (S_int
+    (Fia ¿)
+    (SN_int (DT Cuántos) (NOMINAL_Mas_P (NC_Mas_P ríos)))
+    (SV
+      (VMI desembocan)
+      (SP
+        (SPS en)
+        (SN
+          (DA_Mas_S el)
+          (NOMINAL_Mas_S (NC_Mas_S mar) (NP Mediterráneo)))))
+    (Fit ?)))
+

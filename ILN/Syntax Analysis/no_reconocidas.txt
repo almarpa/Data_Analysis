@@ -1,1 +1,3 @@
-['¿', 'La', 'río', 'Ebro', 'pasa', 'por', 'el', 'País_vasco', '?']['¿', 'El', 'mar', 'Cantábrico', 'baña', 'los', 'costas', 'de', 'Galicia', '?']['¿', 'Qué', 'mares', 'bañan', 'las', 'comunidad', 'de', 'Andalucía', '?']
+¿ La río Ebro pasa por el País_vasco ?
+¿ El mar Cantábrico baña los costas de Galicia ?
+¿ Qué mares bañan las comunidad de Andalucía ?
