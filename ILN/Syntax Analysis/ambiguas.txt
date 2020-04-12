@@ -1,0 +1,1 @@
+['¿', 'Qué', 'mares', 'bañan', 'Andalucía', '?']['¿', 'Qué', 'río', 'pasa', 'por', 'el', 'País_vasco', 'con', 'más', 'caudal', '?']['¿', 'Qué', 'río', 'pasa', 'por', 'la', 'comunidad', 'con', 'más', 'habitantes', '?']['¿', 'El', 'mar', 'Cantábrico', 'baña', 'las', 'costas', 'de', 'Galicia', '?']['¿', 'Qué', 'mares', 'bañan', 'la', 'comunidad', 'de', 'Andalucía', '?']

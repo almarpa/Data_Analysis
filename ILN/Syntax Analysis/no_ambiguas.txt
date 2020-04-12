@@ -1,0 +1,1 @@
+['¿', 'El', 'río', 'Ebro', 'pasa', 'por', 'el', 'País_vasco', '?']['¿', 'Cuántos', 'ríos', 'desembocan', 'en', 'el', 'mar', 'Mediterráneo', '?']
